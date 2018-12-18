@@ -1,0 +1,110 @@
+body {
+      
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding:0;
+  
+}
+
+.all{
+  position: absolute;
+  background-color: rgba(72, 90, 99,0.95 )  ;
+  padding-bottom: 200px;
+}
+
+.center-screen {
+display: flex;
+/* flex-direction: row; */
+justify-content: center;
+/* align-items: center;
+text-align: center;
+min-height: 100vh; */
+padding-top: 80px
+}
+
+input{
+  width: 65px;
+  background: transparent;
+  color:black;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.103);
+  /* border-bottom-style: dotted; */
+}
+
+.assessment{
+width: 100px;
+}
+
+
+button{
+background-color: rgba(105, 184, 161,0.5);
+border: none;
+color:whitesmoke;
+
+}
+
+
+.unit-name{
+width: 100px
+}
+  
+.new-unit{
+  width: 1500px;
+  margin: auto;
+  
+}
+
+#new-unit{
+  background-color: rgba(19, 19, 19, 0.05); 
+  border-style: outset;
+    border-width: 1.5px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px 0;
+  background: rgba(207,214,210);
+  border-radius: 20px;
+  padding-top: 25px;
+}
+
+td {
+  padding: 10px 0; 
+  /* display: block; */
+  /* float: left; */
+  margin-right:50px;
+
+}
+
+#logo{
+  width: 10%;
+  height: 10%;
+}
+
+.calculate{
+  display: none;
+}
+
+/* kk */
+
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  /* width: 100%;
+  height: 100%; */
+  /* background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; */
+}
+canvas {
+  display:block;
+  background: rgba(72, 90, 99);
+  position: fixed;
+  z-index: -1;
+}

@@ -1,0 +1,100 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%;
+}
+h1{
+  font-size:26px;
+}
+h2{
+  font-size:14px;
+}
+h3{
+  font-size:12px;
+}
+h4{
+  font-size:16px;
+}
+h5{
+  font-size:14px;
+}
+p{
+  font-size: 15px;
+}
+
+#iconzz {
+  width: 14%;
+  height: 25%;
+  margin: auto;
+  padding-bottom:20px;
+
+}
+
+.circle-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom:20px;
+}
+
+#IntroButtonRight {
+  margin: auto;
+  display: table;
+  width: fit-content;
+  margin-top: 15px;
+}
+
+.intro-header-ss{
+  color:#f98012;  
+  text-shadow: 0px 0px 1px #ffbd81;
+}
+
+@media (max-width: 740px) {
+  .full-page-intro {
+    height: 1000px;
+  }
+}
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%;
+}
+
+.carousel .carousel-inner {
+  height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100%;
+}
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%;
+  }
+}
+
+/* Navbar animation */
+.navbar {
+  background-color:#1C2331;
+}
+
+.top-nav-collapse {
+  background-color: #1C2331;
+}
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331;
+  }
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331;
+}
